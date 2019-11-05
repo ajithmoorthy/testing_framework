@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [suite]" parallel="tests">
+  <test thread-count="4" name="Test Validate IEcom.atmecs.testing.testscripts.TestVerifyPhpTravels(failed)" parallel="tests">
+    <parameter name="browser" value="GRID,IE"/>
+    <parameter name="url" value="https://www.phptravels.net/"/>
+    <classes>
+      <class name="com.atmecs.testing.testscripts.TestVerifyPhpTravels">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="verifyPhpTravels"/>
+          <include name="endDriver"/>
+        </methods>
+      </class> <!-- com.atmecs.testing.testscripts.TestVerifyPhpTravels -->
+    </classes>
+  </test> <!-- Test Validate IEcom.atmecs.testing.testscripts.TestVerifyPhpTravels(failed) -->
+</suite> <!-- Failed suite [suite] -->
